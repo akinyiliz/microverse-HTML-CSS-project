@@ -1,0 +1,34 @@
+body {
+	background-color: #738ed1;
+	text-align: center;
+	color: white;
+}
+
+.form {
+	width: 50%;
+	background: #212452;
+	margin: 0 auto;
+}
+
+#survey-form {
+	display: flex;
+	flex-direction: column;
+	padding: 1rem;
+}
+
+#survey-form label,
+#dropdown {
+	text-align: left;
+	padding: 0.4rem;
+}
+
+#survey-form input {
+	padding: 0.5rem;
+}
+
+.recommendation input {
+	float: left;
+}
+.recommendation label {
+	margin-right: 20rem;
+}
